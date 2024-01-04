@@ -1,0 +1,61 @@
+#test{
+    height: 2200px;
+    width: 1459px;
+    background-color: #6BC8FA;
+}
+#home{
+    background-color: rgb(196, 243, 171);
+    width: 1460px;
+        height: 40px;
+       
+                font-size: 23px;
+        text-align: right;
+}
+#BBpic{
+    margin-left: 30px;
+}
+#logo{
+    margin-left:30px ;
+}
+#details{
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+    padding-left:13px ;
+}
+table{
+    margin-left: 195px;
+    width: 70%;
+    height: 820px;
+    z-index: 2;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32,32,32,.3);
+    text-align: center;
+    background-color: #fafafa;
+    font-size: 18px;
+    margin-top: -30px;
+}
+th{
+    background-color: #ade8f4;
+    text-transform: uppercase;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#buttom{
+    width: 550px;
+    height: 100px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 900px;
+    margin-bottom: -1000px;
+    margin-left: 410px;
+    font-size: 30px;
+    text-align: centre;
+}
+#btn{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(48, 171, 48);
+    margin-left: 200px;
+}
