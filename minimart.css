@@ -80,14 +80,15 @@
     }
     #end{
         width: 1460px;
-        height: 80px;
+        height: 60px;
         background-color:#ffb703;
         color: yellow;
-        font-size: 23px;
+        font-size: 26px;
         color:blue;
         text-align: center;
         margin-top: 450px;
         margin-bottom: -530px;
+        padding-top: 15px;
     }
     #vote{
         font-size: 29px;
@@ -96,4 +97,24 @@
         margin-left: 1000px;
         margin-bottom: 00px;
         margin-top: -100px;
+    }
+    .btn-button{
+        width:75px;
+        height: 27px;
+        background-color: rgb(2, 189, 2);
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 17px;
+       border-radius: 5px;
+       text-decoration: none;
+       cursor:pointer;
+       transition: 0.4s all;
+       overflow: hidden;
+    }
+    .btn-button:hover{
+        background-color:white;
+        box-shadow: 0px 2px 10px 5px #97b1bf;
+        color:black
+    }
+    .btn-button:focus{
+        outline:none;
     }

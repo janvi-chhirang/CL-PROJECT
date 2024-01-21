@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Big Boss Contestant</title>
+    <link rel="stylesheet" href="BB.css">
+</head>
+
+<body>
+    <div id="test"><br>
+        <div id="home">
+            <pre><a href="topics.html"><-BACK TO DASHBOARD   </a></pre>
+        </div>
+        <br><br>
+        <img id="BBpic" src="BBpic.png" width="700px" height="400px">
+        <img id="contestant" src="contestant.png" width="700px" height="400px">
+        <img id="logo" src="biggboss.png" width="600px" height="400px">
+        <img id="season" src="season17.png" width="800px" height="400px">
+        <p id="details">Bigg Boss 17, also known as Bigg Boss: Dil, Dimaag aur Dum Ka Game, is the Indian-Hindi language reality television show. It premiered on 15 October 2023, on Colors TV and JioCinema. Salman Khan is hosting the show. The show is going to announce its winner on 28 January 2024. Before the winner holds the trophy, COLORS TV is conducting an election to know your favorite contestant among the 10 housemates. So, here we go with the list :-</p>
+        <br><br>
+        <table>
+
+            <tr>
+                <th width="80px" height="70px">S.No.</th>
+                <th width="100px" height="70px">Contestant Name</th>
+                <th width="120px" height="70px">Image</th>
+                <th width="80px" height="70px">Occupation</th>
+                <th width="80px" height="70px">Click to Vote</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Ankita Lokhande</td>
+                <td><img id="ankita" src="ankita.png" width="70px" height="70px"></td>
+                <td>Actress</td>
+                <td><button class="btn-button" onclick="openPopUp('ankita')">Vote</button></td>
+                <div class="modal" id="modal">
+                    <div class="popUp" id="popUp">
+                        <img id="user" src="C:\Users\DELL\Desktop\codes\CL PROJECT\user icon.png" width="60px" height="60px">
+                        <p id="stuff">Thank you for voting in this division. Just for confirmation Biggboss wants you to enter your name:-</p>
+                        <input id="input" type="text" placeholder="Username">
+                        <button id="ok" onclick="closePopUp()">Ok</button>
+                    </div>
+                </div>
+            </tr>
+            <tr>
+                <td>2.</td>
+                    <td>Abhishek kumar</td>
+                    <td><img id="abhishek" src="abhishek.png" width="80px" height="70px"></td>
+                    <td>Actor</td>
+                    <td><button class="btn-button">Vote</button></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                        <td>Arun Mashettey</td>
+                        <td><img id="arun" src="arun.png" width="80px" height="70px"></td>
+                        <td>Gamer</td>
+                        <td><button class="btn-button">Vote</button></td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                            <td>Isha Malviya</td>
+                            <td><img id="isha" src="isha.png" width="70px" height="70px"></td>
+                            <td>Actress</td>
+                            <td><button class="btn-button">Vote</button></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                                <td>Mannara Chopra</td>
+                                <td><img id="manara" src="manara.png" width="70px" height="80px"></td>
+                                <td>Actress</td>
+                                <td><button class="btn-button">Vote</button></td>
+                            </tr>
+                            <tr>
+                                <td>6.</td>
+                                    <td>Munawar Faruqui</td>
+                                    <td><img id="munawar" src="munawar.png" width="80px" height="70px"></td>
+                                    <td>Comedian</td>
+                                    <td><button class="btn-button">Vote</button></td>
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                        <td>Samarth Jurel</td>
+                                        <td><img id="samarth" src="samarth.png" width="70px" height="70px"></td>
+                                        <td>Actor</td>
+                                        <td><button class="btn-button">Vote</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>8.</td>
+                                            <td>Vicky Jain</td>
+                                            <td><img id="vicky" src="vicky.png" width="70px" height="70px"></td>
+                                            <td> Entrepreneur</td>
+                                            <td><button class="btn-button">Vote</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>9.</td>
+                                            <td>Park Min-Jun(Aoora)</td>
+                                            <td><img id="aoora" src="aoora.png" width="70px" height="70px"></td>
+                                            <td>South Korean singer and composer</td>
+                                            <td><button class="btn-button">Vote</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>10.</td>
+                                                <td>Ayesha Khan</td>
+                                                <td><img id="ayesha" src="ayesha.png" width="70px" height="70px"></td>
+                                                <td>Actress, Social media influencer and model</td>
+                                                <td><button class="btn-button">Vote</button></td>
+                                                </tr>
+            <!-- Repeat similar structure for other contestants -->
+        </table>
+
+        <div id="buttom">
+            <p>*Big Boss is keeping an eye on your vote*</p>
+        </div>
+
+       
+
+        <script>
+            function openPopUp(contestant) {
+                let popup = document.getElementById("popUp");
+                popup.classList.add("open-popUp");
+                // You can use the 'contestant' parameter to identify which contestant's modal is being opened
+                // and customize the modal content accordingly.
+            }
+
+            function closePopUp() {
+                let popup = document.getElementById("popUp");
+                popup.classList.remove("open-popUp");
+            }
+        </script>
+
+    </body>
+
+    </html>

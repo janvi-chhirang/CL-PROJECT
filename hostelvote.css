@@ -30,3 +30,27 @@
     text-decoration-color: #ffb703;
     color:#ffb703;
 }
+#ahostel{
+    margin-left: 20px;
+    font-size:28px ;
+   color: #ffb703;
+}
+table{
+    margin-left: 23px;
+    width: 60%;
+    height: 200px;
+    z-index: 2;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32,32,32,.3);
+    text-align: center;
+    background-color: #fafafa;
+    font-size: 17px;
+}
+th{
+    background-color: #ade8f4;
+    text-transform: uppercase;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

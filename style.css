@@ -129,3 +129,44 @@ margin-top: -20px;
     color: black;
     margin-top: 20px;
 }
+#signedUp{
+    border-radius: 10px;
+    margin-left:42px;
+    padding-top: -3px;
+}
+#only{
+    text-align:center;
+    margin-top: 40px;
+}
+#modal{
+    width: 350px;
+    height: 250px;
+    border: solid;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 5px;
+    font-size:20px ;
+    margin-top: -250px;
+    margin-left: 60%;
+    padding: 5px 5px 5px 5px;
+  }
+  #user{
+    border-radius: 50%;
+    margin-left: 5px;
+  }
+  #jhalakend{
+    margin-left: 265px;
+  }
+  #heading2{
+    background-color:#ACC8E5;
+     color:#112A46;
+    text-align: center;
+    font-size:48px ;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:120px;
+    padding-top: 40px;
+    margin-top: 140px;
+    width: 1480px;
+    margin-left: -890px;
+    }
